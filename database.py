@@ -10,6 +10,14 @@ veriler = "INSERT INTO arabalar  values ('Range Rover', 'Velar', 'Bej', 5000) "
 function.veri_ekle()
 database1.commit() 
 
+veriler2= "DELETE from arabalar where Model"
+function.veri_silme()
+database1.commit()
+
+veriler3 = "UPDATE arabalar WHERE Model=?"
+function.veri_guncelle("Porsche")
+database1.commit()
+
 sorgular = "Select * from arabalar"
 function.veri_getir()
 database1.commit()
