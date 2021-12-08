@@ -1,4 +1,4 @@
-rdef listele(database1,liste):
+def listele(database1,liste):
     islem = database1.cursor()
     komut = liste
     islem.execute(komut)
